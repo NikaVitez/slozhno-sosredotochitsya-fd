@@ -63,6 +63,7 @@
   .concentration {
     margin-block-start: 80px;
     padding: 0px 20px;
+    grid-template-columns: repeat(3,315px);
   }
 
   .main_title_concentration {

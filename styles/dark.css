@@ -27,14 +27,6 @@
   opacity: 1;
 }
 
-.theme-dark .corners::before {
-  color: rgba(255, 0, 112, 1);
-}
-
-.theme-dark .corners::after {
-  color: rgba(255, 0, 112, 1);
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-image: url(../images/cover-image-dark.png);

@@ -95,7 +95,7 @@
   inset-block-start: 10px;
   font-family: 'IBM Plex Mono', sans-serif;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 1.3;
   opacity: 0;
   color: rgba(255, 0, 112, 1);
 }
@@ -132,6 +132,7 @@
   margin: 0px 10px 0px 10px;
   color: var(--subtitle-color);
   margin-block-end: 19px;
+  font-family: 'IBM Plex Mono', sans-serif;
 }
 
 .title-decor {
@@ -140,7 +141,6 @@
   font-family: 'IBM Plex Mono', sans-serif;
   font-weight: bold;
   font-size: 18px;
-  line-height: 23.4px;
 }
 
 .main {
@@ -157,19 +157,28 @@
   color: var(--main_title-color);
 }
 
-.focus {
-  display: grid;
-  padding: 0px 10px;
-  gap: 20px;
-}
-
-.content_text {
-  padding-block-start: 10px;
+.card {
   font-family: 'IBM Plex Mono', sans-serif;
   font-weight: normal;
   font-size: 18px;
   line-height: 23.4px;
   color: var(--p-color);
+}
+
+.section {
+  gap: 20px;
+  padding: 0px 10px;
+  margin-block-start: 49px;
+}
+
+.focus {
+  display: grid;
+  margin-block-start: 0px;
+  flex-direction: none;
+}
+
+.content_text {
+  padding-block-start: 10px;
 }
 
 .focus_link {
@@ -190,10 +199,8 @@
 }
 
 .concentration {
-  margin-block-start: 50px;
-  padding: 0px 10px;
   display: grid;
-  gap: 20px;
+  justify-content: center;
 }
 
 .main_subtitle {
@@ -207,25 +214,15 @@
 }
 
 .advice {
-  margin-block-start: 50px;
-  padding: 0px 10px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-}
-
-.pictures {
-  margin-block-start: 50px;
-  padding: 0px 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 
 .pictures_block {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding-top: 10px;
 }
 
 .footer {

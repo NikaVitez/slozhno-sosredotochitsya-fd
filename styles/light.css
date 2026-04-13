@@ -25,11 +25,3 @@
 .theme-light .rec {
   display: none;
 }
-
-.theme-light .corners {
-  opacity: 1;
-}
-
-.theme-light .header__theme-menu {
-  color: rgba(53, 52, 48, 1);
-}

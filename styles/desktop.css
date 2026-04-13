@@ -72,6 +72,7 @@
   .main_title_concentration {
     grid-row: 1;
     grid-column: 1/4;
+    inline-size: 315px;
   }
 
   .advice {

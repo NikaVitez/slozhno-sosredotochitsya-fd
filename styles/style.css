@@ -132,19 +132,10 @@
   margin: 0px 10px 0px 10px;
   color: var(--subtitle-color);
   margin-block-end: 19px;
-  font-family: 'IBM Plex Mono', sans-serif;
-}
-
-.title-decor {
-  background-color: var(--accent-color);
-  color: var(--subtitle-color);
-  font-family: 'IBM Plex Mono', sans-serif;
-  font-weight: bold;
-  font-size: 18px;
+  font-family: inherit;
 }
 
 .main {
-  block-size: 100vh;
   margin-block-start: 40px;
   min-block-size: min-content;
 }
@@ -155,6 +146,20 @@
   font-size: 18px;
   line-height: 23.4px;
   color: var(--main_title-color);
+}
+
+.card_title {
+  background-color: var(--accent-color);
+  color: var(--subtitle-color);
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+.subtitle {
+  font-weight: inherit;
+  margin-block-start: 20px;
 }
 
 .card {
@@ -201,16 +206,6 @@
 .concentration {
   display: grid;
   justify-content: center;
-}
-
-.main_subtitle {
-  margin-block-start: 20px;
-  background-color: var(--accent-color);
-  color: var(--subtitle-color);
-  font-family: 'IBM Plex Mono', sans-serif;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 23.4px;
 }
 
 .advice {

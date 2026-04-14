@@ -46,12 +46,4 @@
   .rec {
     opacity: 1;
   }
-
-  .corners::before {
-    color: rgba(255, 0, 112, 1);
-  }
-
-  .corners::after {
-    color: rgba(255, 0, 112, 1);
-  }
 }

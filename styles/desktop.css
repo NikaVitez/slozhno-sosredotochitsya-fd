@@ -57,8 +57,11 @@
     margin-block-start: 0px;
     grid-template-columns: 314.9px 1fr;
     gap: 20px;
-    display: grid;
     grid-auto-flow: column;
+  }
+
+  .card_content {
+    display: grid;
   }
 
   .main_title_focus {
@@ -66,7 +69,17 @@
   }
 
   .concentration {
-    grid-template-columns: repeat(3,315px);
+    margin-top: 60px;
+    display: grid;
+    grid-auto-flow: column;
+  }
+
+  .concentration_block {
+    grid-auto-flow: column;
+    grid-row: 2;
+    grid-column: 1/4;
+    grid-template-columns: repeat(3, 315px);
+    gap: 20px;
   }
 
   .main_title_concentration {

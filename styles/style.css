@@ -157,9 +157,12 @@
   line-height: 23.4px;
 }
 
-.subtitle {
-  font-weight: inherit;
-  margin-block-start: 20px;
+.advice .card_title {
+  font-weight: normal;
+}
+
+.advice .subtitle {
+  font-weight: bold;
 }
 
 .card {
@@ -180,6 +183,11 @@
   display: grid;
   margin-block-start: 0px;
   flex-direction: none;
+}
+
+.card_content {
+  display: grid;
+  gap: 20px;
 }
 
 .content_text {

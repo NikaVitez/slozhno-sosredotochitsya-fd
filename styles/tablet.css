@@ -57,10 +57,6 @@
     grid-auto-flow: column;
   }
 
-  .focus_block {
-    grid-column: 2/2;
-  }
-
   .main_title_concentration {
     max-inline-size: 236px;
   }

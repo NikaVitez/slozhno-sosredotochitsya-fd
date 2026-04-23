@@ -71,14 +71,11 @@
   .concentration {
     margin-top: 60px;
     display: grid;
-    grid-auto-flow: column;
   }
 
   .concentration_block {
-    grid-auto-flow: column;
-    grid-row: 2;
     grid-column: 1/4;
-    grid-template-columns: repeat(3, 315px);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
 
